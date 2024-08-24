@@ -1,0 +1,58 @@
+#banner{
+    font-weight: bold;
+    text-align:center ;
+    line-height: 50px;
+    height: 50px;
+    background-color: red;
+    animation: bannercolor 5s linear infinite;
+}
+@keyframes bannercolor{
+    0%{background-color: antiquewhite;}
+    25%{background-color: aqua;}
+    50%{background-color: aquamarine;}
+    25%{background-color: blue;}
+    0%{background-color: red;}
+}
+div[id^="oject"]{
+    margin: 30px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+div#oject1{
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid red;
+    background-image: url(/Images/banhbao.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+div#oject2{
+    text-align: center;
+    color: yellow;
+    background-color: aquamarine;
+    line-height: 100px;
+    border: 3px dashed blue;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+div#oject3{
+    text-align: center;
+    color: yellow;
+    background-color: aquamarine;
+    line-height: 100px;
+    border: 3px dotted blue;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+div#oject4{
+    text-align: center;
+    color: aliceblue;
+    line-height: 100px;
+    background-color: green;
+    animation: tran 5s linear infinite;
+}
+@keyframes tran{
+    from {transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+} 

@@ -1,0 +1,13 @@
+caption{
+    font-weight: bold;
+}
+table{
+    border: 1px solid gray; 
+}
+th{
+    background-color: gray !important;
+    color: aliceblue;
+} 
+tr:nth-child(odd){
+    background-color:  lightgray;               
+}

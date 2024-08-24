@@ -1,0 +1,35 @@
+h2{
+    color: yellow;
+    text-shadow: 5px 3px red;
+    text-align: center;
+    background-image: url(/Images/backgrd.png);
+    height: 75px;
+    line-height: 75px;
+}
+.menu{
+    background-color: rgb(39, 223, 217);
+    color: aliceblue;
+    text-align: center;
+    height: 25px;
+
+}
+.menu a{
+    line-height: 25px;
+    margin: 1px;
+    background-color: rgb(7, 193, 153);
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dropdown_content{
+    display: inline-block;
+}
+.dropdown_content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: none;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+}
